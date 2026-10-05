@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dulce ♡ Angelo | 1 año juntos</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Pacifico&display=swap');
+
+:root{
+    --negro:#020204;
+    --negro2:#080308;
+    --rosa:#ff8fc7;
+    --rosa2:#ff4fa3;
+    --rosa3:#ffc1df;
+    --blanco:#fff5fa;
+    --gris:#e6cbd9;
+    --brillo:rgba(255,79,163,.45);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:
+    radial-gradient(circle at 20% 10%,rgba(255,50,150,.20),transparent 30%),
+    radial-gradient(circle at 80% 50%,rgba(255,50,150,.14),transparent 30%),
+    #020204;
+    color:white;
+    font-family:Inter,Arial,sans-serif;
+    overflow-x:hidden;
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    opacity:.20;
+    background-image:
+    radial-gradient(#fff 1px,transparent 1px),
+    radial-gradient(#ff9bce 1px,transparent 1px);
+    background-size:85px 85px,125px 125px;
+    background-position:0 0,40px 55px;
+    z-index:-1;
+}
+
+nav{
+    height:45px;
+    border-bottom:1px solid rgba(255,105,180,.45);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:35px;
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:rgba(2,2,4,.90);
+    backdrop-filter:blur(12px);
+}
+
+nav a{
+    color:#ffc1df;
+    text-decoration:none;
+    font-size:12px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:white;
+    text-shadow:0 0 15px #ff69b4;
+}
+
+.nav-heart{
+    position:absolute;
+    left:34px;
+    font-size:30px;
+    color:#ff9dcc;
+}
+
+.nav-heart.right{
+    left:auto;
+    right:35px;
+    font-size:21px;
+}
+
+.page{
+    width:min(1100px,100%);
+    margin:auto;
+    padding:0 10px 30px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:1.55fr .9fr;
+}
+
+.box{
+    border:1px solid rgba(255,105,180,.48);
+    background:rgba(5,2,6,.83);
+    position:relative;
+    overflow:hidden;
+}
+
+.hero{
+    min-height:375px;
+    display:flex;
+    align-items:center;
+    padding:35px 30px;
+    background:
+    linear-gradient(
+        90deg,
+        rgba(0,0,0,.70),
+        rgba(0,0,0,.15)
+    ),
+    radial-gradient(
+        circle at 45% 55%,
+        rgba(255,50,150,.22),
+        transparent 40%
+    );
+}
+
+.hero-text{
+    width:55%;
+    z-index:2;
+}
+
+.script{
+    font-family:Pacifico,cursive;
+    color:#ffb6d9;
+    font-size:58px;
+    line-height:1.13;
+    text-shadow:
+    0 0 20px rgba(255,79,163,.55);
+}
+
+.hero-names{
+    font-family:Pacifico,cursive;
+    color:white;
+    font-size:25px;
+    margin-top:13px;
+}
+
+.hero-sub{
+    font-size:18px;
+    color:#fff0f7;
+    margin-top:28px;
+    line-height:1.5;
+}
+
+.photo-frame{
+    width:185px;
+    height:225px;
+    background:#f1f1f1;
+    padding:9px 9px 32px;
+    position:absolute;
+    right:72px;
+    top:52px;
+    transform:rotate(5deg);
+    box-shadow:0 8px 30px #000;
+}
+
+.photo{
+    width:100%;
+    height:100%;
+    background:
+    linear-gradient(
+        145deg,
+        rgba(255,255,255,.05),
+        rgba(0,0,0,.45)
+    ),
+    url("https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=700&q=80")
+    center/cover;
+}
+
+.tape{
+    position:absolute;
+    width:70px;
+    height:22px;
+    top:-9px;
+    left:56px;
+    background:rgba(255,174,207,.55);
+    transform:rotate(-3deg);
+}
+
+.hearts{
+    position:absolute;
+    color:#ff9dcc;
+    font-size:24px;
+    animation:flotar 4s ease-in-out infinite;
+}
+
+.h1{
+    left:20px;
+    top:115px;
+}
+
+.h2{
+    right:18px;
+    top:115px;
+}
+
+.h3{
+    left:25%;
+    bottom:65px;
+}
+
+@keyframes flotar{
+    50%{
+        transform:translateY(-7px);
+    }
+}
+
+.hero-note{
+    position:absolute;
+    right:20px;
+    bottom:50px;
+    width:105px;
+    color:white;
+    font-family:Pacifico,cursive;
+    font-size:14px;
+    transform:rotate(-7deg);
+}
+
+.side{
+    display:flex;
+    flex-direction:column;
+}
+
+.counter{
+    min-height:225px;
+    padding:30px 25px 20px;
+    text-align:center;
+}
+
+.small-heart{
+    font-size:21px;
+    color:#ff9dcc;
+}
+
+.counter h3{
+    font-weight:400;
+    font-size:16px;
+    margin:5px 0 17px;
+}
+
+.counter-row{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+}
+
+.counter-item{
+    border-right:1px solid rgba(255,255,255,.35);
+}
+
+.counter-item:last-child{
+    border:0;
+}
+
+.counter-number{
+    font-size:27px;
+    color:#fff0f7;
+}
+
+.counter-label{
+    color:#d9aeca;
+    font-size:11px;
+    margin-top:5px;
+}
+
+.divider{
+    height:1px;
+    background:rgba(255,150,200,.5);
+    margin:16px 0;
+}
+
+.date{
+    font-size:12px;
+    color:#e6c9d9;
+}
+
+.music{
+    min-height:150px;
+    padding:22px;
+}
+
+.music-top{
+    display:flex;
+    align-items:center;
+    gap:13px;
+}
+
+.music-cover{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:
+    url("https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=200&q=80")
+    center/cover;
+    border:2px solid #ff8fc7;
+}
+
+.song-name{
+    font-size:12px;
+}
+
+.song-sub{
+    font-size:10px;
+    color:#d9b3c8;
+    margin-top:5px;
+}
+
+.progress{
+    height:3px;
+    background:#553442;
+    margin:15px 0;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.progress span{
+    display:block;
+    width:0%;
+    height:100%;
+    background:#ff8fc7;
+    transition:.2s;
+}
+
+.controls{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:28px;
+    color:#ff9dcc;
+    font-size:21px;
+}
+
+.play{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    border:0;
+    background:#fff0f7;
+    color:#111;
+    display:grid;
+    place-items:center;
+    cursor:pointer;
+}
+
+.large{
+    min-height:470px;
+    padding:24px 38px;
+}
+
+.title{
+    font-family:Pacifico,cursive;
+    color:#ff9dcc;
+    font-size:27px;
+    margin-bottom:20px;
+}
+
+.letter{
+    max-width:570px;
+}
+
+.letter p{
+    font-size:13px;
+    line-height:1.6;
+    color:#f7eaf1;
+    margin-bottom:14px;
+}
+
+.signature{
+    font-family:Pacifico,cursive;
+    font-size:18px;
+    color:#fff;
+    margin-top:18px;
+}
+
+.x{
+    position:absolute;
+    right:15px;
+    top:15px;
+    width:20px;
+    height:20px;
+    border:1px solid #ff8fc7;
+    border-radius:50%;
+    display:grid;
+    place-items:center;
+    font-size:12px;
+}
+
+.memories{
+    min-height:470px;
+    padding:23px 28px;
+}
+
+.memories-head{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:18px;
+}
+
+.camera{
+    font-size:31px;
+    color:#ff8fc7;
+}
+
+.memories h2{
+    font-family:Pacifico,cursive;
+    font-size:29px;
+    color:#ff9dcc;
+    font-weight:400;
+}
+
+.memories p{
+    font-size:11px;
+    color:#eadce4;
+    margin:0 0 18px 45px;
+}
+
+.photos{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+}
+
+.polaroid{
+    background:#eee;
+    padding:7px 7px 25px;
+    transform:rotate(-3deg);
+    box-shadow:0 8px 20px #000;
+}
+
+.polaroid:nth-child(2){
+    transform:rotate(2deg);
+}
+
+.polaroid:nth-child(3){
+    transform:rotate(5deg);
+}
+
+.polaroid:nth-child(4){
+    transform:rotate(-4deg);
+}
+
+.polaroid:nth-child(5){
+    transform:rotate(4deg);
+}
+
+.polaroid:nth-child(6){
+    transform:rotate(-2deg);
+}
+
+.polaroid img{
+    width:100%;
+    height:105px;
+    object-fit:cover;
+    display:block;
+}
+
+.polaroid span{
+    display:block;
+    color:#291622;
+    text-align:center;
+    font-size:9px;
+    margin-top:8px;
+}
+
+.promises{
+    padding:28px 38px;
+    min-height:290px;
+}
+
+.promises ul{
+    list-style:none;
+    display:grid;
+    gap:13px;
+    margin-top:20px;
+    max-width:540px;
+}
+
+.promises li{
+    font-size:13px;
+    color:#f7edf2;
+}
+
+.promises li::before{
+    content:"♡";
+    color:#ff8fc7;
+    font-size:21px;
+    margin-right:12px;
+    vertical-align:-2px;
+}
+
+.cats{
+    position:absolute;
+    right:25px;
+    bottom:20px;
+    font-size:60px;
+    letter-spacing:-15px;
+    filter:drop-shadow(0 0 8px #ff69b4);
+}
+
+.numbers{
+    padding:28px;
+    min-height:290px;
+}
+
+.number-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    border:1px solid rgba(255,105,180,.35);
+    margin-top:20px;
+}
+
+.number{
+    text-align:center;
+    padding:23px 7px;
+    border-right:1px solid rgba(255,105,180,.25);
+}
+
+.number:last-child{
+    border:0;
+}
+
+.number .icon{
+    font-size:30px;
+    color:#ff9dcc;
+}
+
+.number strong{
+    display:block;
+    font-size:27px;
+    margin:10px 0 5px;
+}
+
+.number small{
+    font-size:10px;
+    color:#d9b3c8;
+}
+
+.surprise{
+    min-height:255px;
+    padding:27px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.surprise h2{
+    font-family:Pacifico,cursive;
+    color:#ff9dcc;
+    font-size:24px;
+}
+
+.surprise p{
+    font-size:12px;
+    color:#eadde5;
+    line-height:1.5;
+    margin-top:20px;
+}
+
+.surprise-btn{
+    margin-top:24px;
+    padding:12px 28px;
+    border:1px solid #ff8fc7;
+    border-radius:30px;
+    color:#ffe5f1;
+    background:rgba(255,79,163,.1);
+    box-shadow:0 0 15px rgba(255,79,163,.25);
+    cursor:pointer;
+    transition:.3s;
+}
+
+.surprise-btn:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 25px rgba(255,79,163,.55);
+}
+
+.heart-message{
+    display:grid;
+    place-items:center;
+    font-size:12px;
+    text-align:center;
+    padding:35px;
+}
+
+.big-heart{
+    width:170px;
+    height:150px;
+    border:2px solid #ff8fc7;
+    border-radius:50%;
+    display:grid;
+    place-items:center;
+    box-shadow:0 0 25px rgba(255,79,163,.35);
+    font-size:12px;
+    padding:30px;
+}
+
+.final{
+    min-height:285px;
+    padding:25px;
+    background:
+    linear-gradient(
+        rgba(0,0,0,.48),
+        rgba(0,0,0,.55)
+    ),
+    url("https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1100&q=80")
+    center/cover;
+}
+
+.final-paper{
+    width:48%;
+    min-height:205px;
+    padding:25px 35px;
+    background:#f3dce7;
+    color:#24131d;
+    transform:rotate(-2deg);
+    box-shadow:0 10px 30px #000;
+}
+
+.final-paper h2{
+    font-family:Pacifico,cursive;
+    font-size:25px;
+    margin-bottom:10px;
+}
+
+.final-paper p{
+    font-size:12px;
+    line-height:1.6;
+}
+
+.final-love{
+    position:absolute;
+    right:50px;
+    bottom:40px;
+    font-family:Pacifico,cursive;
+    font-size:22px;
+    color:#ff9dcc;
+    transform:rotate(-7deg);
+}
+
+footer{
+    border-top:1px solid rgba(255,105,180,.45);
+    text-align:center;
+    padding:14px;
+    font-size:11px;
+    color:#d9b3c8;
+}
+
+@media(max-width:800px){
+
+    nav{
+        gap:13px;
+        overflow-x:auto;
+        justify-content:flex-start;
+        padding:0 50px;
+    }
+
+    nav a{
+        white-space:nowrap;
+    }
+
+    .nav-heart{
+        left:13px;
+    }
+
+    .nav-heart.right{
+        right:13px;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .hero{
+        min-height:430px;
+    }
+
+    .hero-text{
+        width:100%;
+        padding-top:15px;
+    }
+
+    .script{
+        font-size:45px;
+    }
+
+    .hero-names{
+        font-size:20px;
+    }
+
+    .photo-frame{
+        right:30px;
+        top:210px;
+        width:150px;
+        height:185px;
+    }
+
+    .hero-sub{
+        font-size:15px;
+    }
+
+    .hero-note{
+        right:8px;
+        bottom:35px;
+    }
+
+    .photos{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .final-paper{
+        width:75%;
+    }
+}
+
+@media(max-width:500px){
+
+    .photos{
+        grid-template-columns:1fr 1fr;
+        gap:12px;
+    }
+
+    .polaroid img{
+        height:95px;
+    }
+
+    .large,
+    .memories,
+    .promises,
+    .numbers{
+        padding:22px 17px;
+    }
+
+    .number-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .number:nth-child(2){
+        border-right:0;
+    }
+
+    .number:nth-child(-n+2){
+        border-bottom:1px solid rgba(255,105,180,.25);
+    }
+
+    .surprise{
+        grid-template-columns:1fr;
+    }
+
+    .heart-message{
+        display:none;
+    }
+
+    .final-paper{
+        width:90%;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+    <div class="nav-heart">♡</div>
+
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Dulce & Angelo</a>
+    <a href="#recuerdos">Recuerdos</a>
+    <a href="#carta">Carta</a>
+    <a href="#promesas">Promesas</a>
+    <a href="#sorpresa">Sorpresa</a>
+
+    <div class="nav-heart right">♡</div>
+
+</nav>
+
+<main class="page">
+
+<section class="grid" id="inicio">
+
+    <div class="box hero">
+
+        <div class="hero-text">
+
+            <div class="script">
+                1 año ♡
+                <br>
+                juntos
+            </div>
+
+            <div class="hero-names">
+                Dulce & Angelo
+            </div>
+
+            <div class="hero-sub">
+                Y qué bonito es todo
+                <br>
+                lo que hemos vivido...
+            </div>
+
+        </div>
+
+        <div class="photo-frame">
+
+            <div class="tape"></div>
+
+            <div class="photo"></div>
+
+        </div>
+
+        <div class="hero-note">
+
+            Gracias por
+            <br>
+            ser parte de
+            <br>
+            mi vida ♡
+
+        </div>
+
+        <div class="hearts h1">♡</div>
+        <div class="hearts h2">♡</div>
+        <div class="hearts h3">♡ ♡ ♡</div>
+
+    </div>
+
+    <aside class="side">
+
+        <div class="box counter" id="nosotros">
+
+            <div class="small-heart">♡</div>
+
+            <h3>
+                Dulce ♡ Angelo
+            </h3>
+
+            <div class="counter-row">
+
+                <div class="counter-item">
+
+                    <div class="counter-number" id="days">
+                        365
+                    </div>
+
+                    <div class="counter-label">
+                        Días
+                    </div>
+
+                </div>
+
+                <div class="counter-item">
+
+                    <div class="counter-number" id="hours">
+                        00
+                    </div>
+
+                    <div class="counter-label">
+                        Horas
+                    </div>
+
+                </div>
+
+                <div class="counter-item">
+
+                    <div class="counter-number" id="minutes">
+                        00
+                    </div>
+
+                    <div class="counter-label">
+                        Minutos
+                    </div>
+
+                </div>
+
+                <div class="counter-item">
+
+                    <div class="counter-number" id="seconds">
+                        00
+                    </div>
+
+                    <div class="counter-label">
+                        Segundos
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="date">
+
+                ♡ &nbsp;
+                Desde el 5 de octubre de 2025
+
+            </div>
+
+        </div>
+
+        <div class="box music">
+
+            <audio id="audio" src="cancion.mp3"></audio>
+
+            <div class="music-top">
+
+                <div class="music-cover"></div>
+
+                <div>
+
+                    <div class="song-name">
+                        Nuestra canción ♡
+                    </div>
+
+                    <div class="song-sub">
+                        Dulce ♡ Angelo
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="progress">
+
+                <span id="progressBar"></span>
+
+            </div>
+
+            <div class="controls">
+
+                <span>◀</span>
+
+                <button class="play" id="play">
+                    ▶
+                </button>
+
+                <span>▶</span>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+</section>
+
+<section class="grid">
+
+    <div class="box large" id="carta">
+
+        <div class="x">
+            ×
+        </div>
+
+        <div class="title">
+            Una carta para Angelo ♡
+        </div>
+
+        <div class="letter">
+
+            <p>
+                Mi amor, Angelo:
+            </p>
+
+            <p>
+                Hoy cumplimos nuestro primer año juntos
+                y no sabes lo feliz que me hace poder
+                celebrar esta fecha contigo.
+            </p>
+
+            <p>
+                Gracias por estar en mi vida,
+                por cada risa, cada momento bonito,
+                cada conversación y por hacerme
+                sentir tan especial.
+            </p>
+
+            <p>
+                No siempre todo ha sido fácil,
+                pero juntos hemos aprendido,
+                crecido y demostrado que nuestro
+                amor es más fuerte que cualquier obstáculo.
+            </p>
+
+            <p>
+                Quiero seguir creando muchos recuerdos
+                a tu lado, apoyarte en tus sueños,
+                y estar contigo en cada paso que demos.
+            </p>
+
+            <p>
+                Eres mi persona favorita, y deseo
+                que este sea solo el primero de muchos
+                aniversarios juntos.
+            </p>
+
+            <div class="signature">
+
+                Te amo, Angelo ♡
+
+                <br>
+                <br>
+
+                Dulce
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="box memories" id="recuerdos">
+
+        <div class="memories-head">
+
+            <div class="camera">
+                ▣
+            </div>
+
+            <h2>
+                Nuestros recuerdos
+            </h2>
+
+        </div>
+
+        <p>
+            Cada foto guarda un pedacito
+            de la historia de Dulce & Angelo ♡
+        </p>
+
+        <div class="photos">
+
+            <div class="polaroid">
+
+                <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=500&q=80">
+
+                <span>
+                    Nuestro comienzo ♡
+                </span>
+
+            </div>
+
+            <div class="polaroid">
+
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=500&q=80">
+
+                <span>
+                    Momentos únicos ♡
+                </span>
+
+            </div>
+
+            <div class="polaroid">
+
+                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=500&q=80">
+
+                <span>
+                    Mi lugar favorito ♡
+                </span>
+
+            </div>
+
+            <div class="polaroid">
+
+                <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=500&q=80">
+
+                <span>
+                    Contigo todo es mejor ♡
+                </span>
+
+            </div>
+
+            <div class="polaroid">
+
+                <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=500&q=80">
+
+                <span>
+                    Muchas aventuras más... ♡
+                </span>
+
+            </div>
+
+            <div class="polaroid">
+
+                <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=500&q=80">
+
+                <span>
+                    Dulce & Angelo ♡
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="grid">
+
+    <div class="box promises" id="promesas">
+
+        <div class="title">
+            Mis promesas para nosotros ♡
+        </div>
+
+        <ul>
+
+            <li>
+                Escucharte y tratar de comprenderte.
+            </li>
+
+            <li>
+                Apoyarte en tus sueños y metas.
+            </li>
+
+            <li>
+                Cuidar nuestro amor con respeto
+                y confianza.
+            </li>
+
+            <li>
+                Crear muchos recuerdos bonitos contigo.
+            </li>
+
+            <li>
+                Seguir aprendiendo y creciendo juntos.
+            </li>
+
+        </ul>
+
+        <div class="cats">
+            ♡ ♡
+        </div>
+
+    </div>
+
+    <div class="box numbers">
+
+        <div class="title">
+            Nuestro año en números
+        </div>
+
+        <div class="number-grid">
+
+            <div class="number">
+
+                <div class="icon">
+                    ♡
+                  </div>
+
+                <strong>
+                    365
+                </strong>
+
+                <small>
+                    Días de amor
+                </small>
+
+            </div>
+
+            <div class="number">
+
+                <div class="icon">
+                    ☺
+                </div>
+
+                <strong>
+                    52
+                </strong>
+
+                <small>
+                    Semanas de risas
+                </small>
+
+            </div>
+
+            <div class="number">
+
+                <div class="icon">
+                    ☆
+                </div>
+
+                <strong>
+                    12
+                </strong>
+
+                <small>
+                    Meses de locuras
+                </small>
+
+            </div>
+
+            <div class="number">
+
+                <div class="icon">
+                    ∞
+                </div>
+
+                <strong>
+                    ∞
+                </strong>
+
+                <small>
+                    Momentos por vivir
+                </small>
+
+            </div>
+
+        </div>
+
+        <div style="
+        font-family:Pacifico;
+        color:#ff9dcc;
+        text-align:center;
+        margin-top:18px;
+        font-size:14px;
+        ">
+
+            Y lo mejor...
+            aún estamos comenzando ♡
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="grid">
+
+    <div class="box surprise" id="sorpresa">
+
+        <div>
+
+            <h2>
+                🎁 Sorpresa
+            </h2>
+
+            <p>
+                Hay algo que quiero recordarte
+                siempre, Angelo...
+            </p>
+
+            <button
+                class="surprise-btn"
+                onclick="mostrarSorpresa()"
+            >
+                Toca aquí ♡
+            </button>
+
+        </div>
+
+        <div
+            class="heart-message"
+            id="secret"
+            style="display:none;"
+        >
+
+            <div class="big-heart">
+
+                Entre tantas personas
+                en el mundo, qué bonito
+                que nuestras historias
+                se hayan encontrado.
+                <br><br>
+                Dulce ♡ Angelo
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="box final">
+
+        <div class="final-paper">
+
+            <h2>
+                Feliz primer año
+                <br>
+                mi amor ♡
+            </h2>
+
+            <p>
+                Gracias por elegirme,
+                <br>
+                por hacerme tan feliz
+                <br>
+                y por ser mi persona favorita.
+            </p>
+
+            <p style="margin-top:12px">
+                Por muchos años más juntos...
+            </p>
+
+            <div style="
+            font-size:18px;
+            margin-top:12px;
+            ">
+                Dulce ♡ Angelo
+            </div>
+
+        </div>
+
+        <div class="final-love">
+            Te amo ♥
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+
+    Dulce ♡ Angelo ·
+    05 de octubre de 2025 — 05 de octubre de 2026
+
+</footer>
+
+<script>
+
+const inicio = new Date("2025-10-05T00:00:00");
+
+function actualizarContador(){
+
+    const ahora = new Date();
+
+    let diferencia = ahora - inicio;
+
+    if(diferencia < 0){
+        diferencia = 0;
+    }
+
+    const totalSeg = Math.floor(diferencia / 1000);
+
+    const dias = Math.floor(totalSeg / 86400);
+
+    const horas = Math.floor(
+        (totalSeg % 86400) / 3600
+    );
+
+    const minutos = Math.floor(
+        (totalSeg % 3600) / 60
+    );
+
+    const segundos = totalSeg % 60;
+
+    document.getElementById("days").textContent = dias;
+
+    document.getElementById("hours").textContent =
+        String(horas).padStart(2,"0");
+
+    document.getElementById("minutes").textContent =
+        String(minutos).padStart(2,"0");
+
+    document.getElementById("seconds").textContent =
+        String(segundos).padStart(2,"0");
+
+}
+
+actualizarContador();
+
+setInterval(actualizarContador,1000);
+
+const audio = document.getElementById("audio");
+
+const play = document.getElementById("play");
+
+const progressBar =
+    document.getElementById("progressBar");
+
+play.addEventListener("click",function(){
+
+    if(audio.paused){
+
+        audio.play();
+
+        play.textContent = "Ⅱ";
+
+    }else{
+
+        audio.pause();
+
+        play.textContent = "▶";
+
+    }
+
+});
+
+audio.addEventListener("timeupdate",function(){
+
+    if(audio.duration){
+
+        const progreso =
+            (audio.currentTime / audio.duration) * 100;
+
+        progressBar.style.width =
+            progreso + "%";
+
+    }
+
+});
+
+audio.addEventListener("ended",function(){
+
+    play.textContent = "▶";
+
+    progressBar.style.width = "0%";
+
+});
+
+function mostrarSorpresa(){
+
+    const secreto =
+        document.getElementById("secret");
+
+    secreto.style.display = "grid";
+
+    secreto.animate(
+        [
+            {
+                transform:"scale(.7)",
+                opacity:0
+            },
+            {
+                transform:"scale(1)",
+                opacity:1
+            }
+        ],
+        {
+            duration:600,
+            easing:"cubic-bezier(.2,.8,.2,1)"
+        }
+    );
+
+}
+
+</script>
+
+</body>
+</html>
